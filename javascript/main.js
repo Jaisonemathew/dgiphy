@@ -25,7 +25,7 @@ document.querySelector(".js-userinput").addEventListener('keyup', function (e) {
 
 function pushToAPI(input) {
 
-    var url = "http://api.giphy.com/v1/gifs/search?q=" + input + "&api_key=JoIWpzae1OdAPwa8qLuiIiWcwT1WSyAR"
+    var url = "https://api.giphy.com/v1/gifs/search?q=" + input + "&api_key=JoIWpzae1OdAPwa8qLuiIiWcwT1WSyAR"
 
     console.log(url);
 
